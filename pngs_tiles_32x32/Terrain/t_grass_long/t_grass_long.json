@@ -20,6 +20,21 @@
     "bg": [  ]
   },
   {
+    "id": "t_grass_long_t_connection_n",
+    "fg": [ "t_grass_long_t_connection_n" ],
+    "bg": [  ]
+  },
+  {
+    "id": "t_grass_long_t_connection_s",
+    "fg": [ "t_grass_long_t_connection_s" ],
+    "bg": [  ]
+  },
+  {
+    "id": "t_grass_long_t_connection_w",
+    "fg": [ "t_grass_long_t_connection_w" ],
+    "bg": [  ]
+  },
+  {
     "id": "t_grass_long_t_corner_nw",
     "fg": [ "t_grass_long_t_corner_nw" ],
     "bg": [  ]
@@ -27,6 +42,11 @@
   {
     "id": "t_grass_long_t_corner_se",
     "fg": [ "t_grass_long_t_corner_se" ],
+    "bg": [  ]
+  },
+  {
+    "id": "t_grass_long_t_corner_ne",
+    "fg": [ "t_grass_long_t_corner_ne" ],
     "bg": [  ]
   },
   {
