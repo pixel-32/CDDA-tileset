@@ -4,6 +4,15 @@
     "width": 32
   },
   {
-    "tiles.png": {  }
+    "regularterrain.png": {  }
+  },
+  {
+    "tallterrain.png": { "sprite_width": 32, "sprite_height": 64, "sprite_offset_y": -32 }
+  },
+  {
+    "regularcreatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -16 }
+  },
+  {
+    "expandedcreatures.png": { "sprite_width": 48, "sprite_height": 48, "sprite_offset_y": -16 }
   }
 ]
