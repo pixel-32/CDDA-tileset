@@ -1,5 +1,5 @@
 {
   "id": "t_door_c",
   "fg": ["t_door_c"],
-  "bg": []
+  "bg": ["t_door_frame"]
 }
