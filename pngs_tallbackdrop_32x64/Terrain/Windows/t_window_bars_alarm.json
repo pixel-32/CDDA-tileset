@@ -1,5 +1,5 @@
 {
   "id": "t_window_bars_alarm",
   "fg": ["t_window_bars_alarm"],
-  "bg": []
+  "bg": ["t_window_bg"]
 }

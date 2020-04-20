@@ -1,5 +1,5 @@
 {
-  "id": "t_window_bg",
+  "id": "t_window_empty",
   "fg": ["t_window_bg"],
   "bg": []
 }
