@@ -1,10 +1,11 @@
 [
   {
+    "pixelscale": 1,
     "height": 32,
     "width": 32
   },
   {
-    "regularbackdrop.png": {  }
+    "backdrop.png": {  }
   },
   {
     "tallbackdrop.png": { "sprite_width": 32, "sprite_height": 64, "sprite_offset_y": -32 }
@@ -14,5 +15,10 @@
   },
   {
     "expandedcreatures.png": { "sprite_width": 48, "sprite_height": 48, "sprite_offset_x": -8, "sprite_offset_y": -16 }
+  },
+    {
+    "fallback.png": {
+      "fallback": true
+    }
   }
 ]
