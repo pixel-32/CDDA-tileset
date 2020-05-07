@@ -1,0 +1,10 @@
+{
+  "id": "can_food",
+    "fg": [
+        { "weight": 1, "sprite": "can_food"},
+        { "weight": 2, "sprite": "can_food1"},
+        { "weight": 2, "sprite": "can_food2"},
+        { "weight": 2, "sprite": "can_food3"},
+        { "weight": 1, "sprite": "can_food4"}
+    ],  "bg": []
+}
