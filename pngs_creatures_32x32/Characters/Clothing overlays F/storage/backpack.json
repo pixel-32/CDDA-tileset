@@ -1,11 +1,11 @@
 [
   {
-    "id": "backpack",
+    "id": "overlay_male_worn_backpack",
     "fg": [ "backpack" ],
     "bg": [  ]
   },
   {
-    "id": "backpack_f",
+    "id": "overlay_female_worn_bakpack",
     "fg": [ "backpack_f" ],
     "bg": [  ]
   }
