@@ -1,0 +1,12 @@
+[
+  {
+    "id": "t_linoleum_white",
+    "fg": [ "t_linoleum_white" ],
+    "bg": [  ]
+  },
+  {
+    "id": "t_linoleum_gray",
+    "fg": [ "t_linoleum_gray" ],
+    "bg": [  ]
+  }
+]
