@@ -1,0 +1,14 @@
+{
+  "id": "mon_darkman",
+  "animated": true,
+  "fg": [
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_000" },
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_001" },
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_002" },
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_003" },
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_004" },
+    { "weight": 10, "sprite": "mon_darkman_floatyShadows_005" }
+  ],
+  "rotates": false,
+  "bg": []
+}
