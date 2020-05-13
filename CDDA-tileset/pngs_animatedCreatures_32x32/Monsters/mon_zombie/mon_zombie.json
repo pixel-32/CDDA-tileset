@@ -1,0 +1,14 @@
+{
+  "id": "mon_zombie",
+  "animated": true,
+  "fg": [
+    { "weight": 10, "sprite": "mon_zombie_walk_000" },
+    { "weight": 10, "sprite": "mon_zombie_walk_001" },
+    { "weight": 10, "sprite": "mon_zombie_walk_002" },
+    { "weight": 10, "sprite": "mon_zombie_walk_003" },
+    { "weight": 10, "sprite": "mon_zombie_walk_004" },
+    { "weight": 10, "sprite": "mon_zombie_walk_005" }
+  ],
+  "rotates": false,
+  "bg": []
+}
