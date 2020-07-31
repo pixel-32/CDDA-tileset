@@ -2,6 +2,6 @@
   {
     "id": "t_shrub",
     "fg": [ "t_shrub" ],
-    "bg": [ "t_shrub_bg" ]
+    "bg": [ "t_tall_grass_bg" ]
   }
 ]
