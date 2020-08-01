@@ -1,5 +1,68 @@
+[
 {
   "id": "f_fridge",
-  "fg": ["f_fridge"],
-  "bg": []
+  "multitile": true,
+  "fg": [
+    "f_fridge"
+  ],
+  "bg": [],
+  "additional_tiles": [
+    {
+      "id": "center",
+      "bg": [],
+      "fg": [
+        "f_fridge"
+      ]
+    },
+    {
+      "id": "corner",
+      "bg": [],
+      "fg": [
+        "f_fridge",
+        "f_fridge",
+        "f_fridge",
+        "f_fridge"
+      ]
+    },
+    {
+      "id": "t_connection",
+      "bg": [],
+      "fg": [
+        "f_fridge",
+        "f_fridge",
+        "f_fridge",
+        "f_fridge"
+      ]
+    },
+    {
+      "id": "edge",
+      "bg": [],
+      "fg": [
+        "f_fridge",
+        "f_fridge"
+      ]
+    },
+    {
+      "id": "end_piece",
+      "bg": [],
+      "fg": [
+        "f_fridge",
+        "f_fridge",
+        "f_fridge",
+        "f_fridge"
+      ]
+    },
+  {
+      "bg": [],
+      "id": "unconnected",
+      "fg": [
+        "f_fridge",
+        "f_fridge_e",
+        "f_fridge_s",
+        "f_fridge_w"
+        
+      ]
+    }
+  ]
 }
+]
