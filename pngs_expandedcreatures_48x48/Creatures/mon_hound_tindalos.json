@@ -1,0 +1,12 @@
+[
+  {
+  "id": "mon_hound_tindalos",
+  "fg": ["mon_hound_tindalos"],
+  "bg": []
+  },
+  {
+    "id": "mon_hound_tindalos_afterimage",
+    "fg": ["mon_hound_tindalos"],
+    "bg": []
+  }
+]
