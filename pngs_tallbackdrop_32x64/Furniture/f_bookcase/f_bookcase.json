@@ -1,0 +1,6 @@
+{
+  "id": "f_bookcase",
+  "rotates": true,
+  "fg": [ "f_bookcase_faceS", "f_bookcase_faceS", "f_bookcase_faceN", "f_bookcase_faceS" ],
+  "bg": []
+}
