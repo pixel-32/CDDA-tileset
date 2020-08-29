@@ -1,5 +1,5 @@
 {
   "id": "f_console",
-  "fg": ["f_console"],
+  "fg": [ "f_console_faceS" ],
   "bg": []
 }
