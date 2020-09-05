@@ -20,7 +20,7 @@
     "ultratallbackdrop.png": { "sprite_width": 96, "sprite_height": 128, "sprite_offset_x": -32, "sprite_offset_y": -96 }
   },
   {
-    "creatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": -16 }
+    "creatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": -8 }
   },
   {
     "expandedcreatures.png": { "sprite_width": 48, "sprite_height": 48, "sprite_offset_x": -8, "sprite_offset_y": -16 }
