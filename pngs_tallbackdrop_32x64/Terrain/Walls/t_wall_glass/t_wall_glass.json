@@ -1,0 +1,5 @@
+{
+  "id": "t_wall_glass",
+  "fg": ["t_wall_glass"],
+  "bg": ["t_window_bg"]
+}
