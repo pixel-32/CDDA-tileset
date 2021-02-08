@@ -55,7 +55,7 @@
       "bg": [],
       "id": "unconnected",
       "fg": [
-        "t_grass_long_center"
+        "t_grass_long_unconnected"
       ]
     }
   ]
