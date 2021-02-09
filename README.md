@@ -15,7 +15,7 @@ Cuteclysm doesnt have a well established color pallete. When it comes to terrain
 #### Top and Front Perspective
 ![Current screenshot](/screenshots/doc_images/perspective.png)
 
-Like the clasic JRPGs of the 16 bit era, Cuteclysm renders the world in a three-quarters view that shows the top and front faces of every object.  Taller objects show a larger front and a shorter top, while the top face is more prevalent in shorter objects.
+Cuteclysm renders the world in a three-quarters view that shows the top and front faces of every object.  Taller objects show a larger front and a shorter top, while the top face is more prevalent in shorter objects.
 
 #### Simple Geometry
 ![Current screenshot](/screenshots/doc_images/bad-tree.png) ![Current screenshot](/screenshots/doc_images/good-tree.png)
