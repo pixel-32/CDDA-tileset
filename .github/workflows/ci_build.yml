@@ -3,7 +3,6 @@
 #
 # This action is triggerd by any PR against the master branch as well
 # as on any push to the master branch itself
-name: Cutieclysm composer
 
 on:
   push:
@@ -12,6 +11,8 @@ on:
   pull_request:
     branches:
       - master
+
+name: CI Build
 
 jobs:
   build:
@@ -30,26 +31,29 @@ jobs:
       - name: Build
         id: build
         run: |
+          tilset_name=Cuteaclysm
           mkdir build && cd build
-          wget -q https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py \
-          || echo "Error: Failed to get compose.py"
+          wget https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py
 
-          cd ..
-          python3 build/compose.py --use-all --obsolete-fillers ..
-          cd build
+          mkdir gfx
+          ln -sT ../.. gfx/$tilset_name
 
-          artifact_name=Cutieclysm-$(echo $GITHUB_SHA | cut -c -8)
-          tileset_dir=..
+          python3 compose.py $tilset_name
+
+          artifact_name=$tilset_name-$(echo $GITHUB_SHA | cut -c -8)
+          tileset_dir=gfx/$tilset_name
 
           mkdir $artifact_name
           mv $tileset_dir/*.png            $artifact_name
           mv $tileset_dir/tile_config.json $artifact_name
           mv $tileset_dir/tileset.txt      $artifact_name
 
+          zip -r $artifact_name.zip $artifact_name
+
           echo ::set-output name=artifact_name::$artifact_name
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1
         with:
-          name: ${{ steps.build.outputs.artifact_name }}
-          path: build/${{ steps.build.outputs.artifact_name }}
+          name: ${{ steps.build.outputs.artifact_name }}.zip
+          path: build/${{ steps.build.outputs.artifact_name }}.zip
