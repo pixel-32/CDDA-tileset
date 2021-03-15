@@ -9,9 +9,14 @@ on:
   push:
     branches:
       - master
+      paths:
+      - '.github/workflows/ci_build.yml'
   pull_request:
     branches:
       - master
+      paths:
+      - '.github/workflows/ci_build.yml'
+
 
 jobs:
   build:
