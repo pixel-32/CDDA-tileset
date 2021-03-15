@@ -1,0 +1,5 @@
+{
+  "id": "t_window_no_curtains_open",
+  "fg": ["t_window_open"],
+  "bg": ["t_window_bg"]
+}

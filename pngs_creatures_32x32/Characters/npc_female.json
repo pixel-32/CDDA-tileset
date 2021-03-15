@@ -1,5 +1,5 @@
 {
   "id": "npc_female",
-  "fg": [ "female" ],
+  "fg": [ "npc_female" ],
   "bg": []
 }
