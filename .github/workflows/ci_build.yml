@@ -34,6 +34,7 @@ jobs:
           wget -q https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py \
           || echo "Error: Failed to get compose.py"
 
+          cd ..
           python3 build/compose.py --use-all --obsolete-fillers ..
           cd build
 
