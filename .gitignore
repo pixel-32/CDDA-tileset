@@ -1,0 +1,9 @@
+.DS_Store
+desktop.ini
+__pycache__
+
+# generated on build
+tile_config.json
+
+# built sprite sheets
+*.png
