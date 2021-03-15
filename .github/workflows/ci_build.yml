@@ -38,7 +38,7 @@ jobs:
           mkdir gfx
           ln -sT ../.. gfx/$tilset_name
 
-          python3 compose.py $tilset_name
+          python3 compose.py --use-all --obsolete-fillers $tilset_name
 
           artifact_name=$tilset_name-$(echo $GITHUB_SHA | cut -c -8)
           tileset_dir=gfx/$tilset_name
