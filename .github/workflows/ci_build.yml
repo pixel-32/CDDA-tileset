@@ -3,6 +3,7 @@
 #
 # This action is triggerd by any PR against the master branch as well
 # as on any push to the master branch itself
+name: Cutieclysm composer
 
 on:
   push:
@@ -11,8 +12,6 @@ on:
   pull_request:
     branches:
       - master
-
-name: CI Build
 
 jobs:
   build:
@@ -31,9 +30,11 @@ jobs:
       - name: Build
         id: build
         run: |
-          tilset_name=Cuteaclysm
+          tilset_name=Cutieclysm
+          
           mkdir build && cd build
-          wget https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py
+          wget -q https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py \
+          || echo "Error: Failed to get compose.py"
 
           mkdir gfx
           ln -sT ../.. gfx/$tilset_name
