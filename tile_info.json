@@ -23,6 +23,9 @@
     "items.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -8 }
   },
   {
+    "fillerItems.png": { "sprite_width": 20, "sprite_height": 20, "sprite_offset_y": -5 }
+  },
+  {
     "creatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": -8 }
   },
   {

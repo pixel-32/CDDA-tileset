@@ -1,0 +1,17 @@
+{
+  "id": [
+    "child_book",
+    "novel_erotic",
+    "novel_road",
+    "play_book",
+    "poetry_book"
+  ],
+  "fg": [
+    "pink_book"
+  ],
+  "bg": [
+    
+  ],
+  "rotates": false,
+  "multitile": false
+}
