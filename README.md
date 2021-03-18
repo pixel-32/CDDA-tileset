@@ -1,6 +1,6 @@
 
 # Cuteclysm
-A tileset for the roguelike Cataclysm:Dark Days Ahead. With a clean, cute and minimalist visual style simmilar 16-bit era JRPGs.
+A tileset for the roguelike Cataclysm:Dark Days Ahead. With a clean, cute and minimalist visual style inspired by 16-bit era JRPGs.
 
 ## Style Guide
 
