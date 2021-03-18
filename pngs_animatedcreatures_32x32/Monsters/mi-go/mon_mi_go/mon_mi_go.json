@@ -1,0 +1,14 @@
+{
+  "id": "mon_mi_go",
+  "animated": true,
+  "fg": [
+    { "weight": 10, "sprite": "mon_mi_go_standing_000" },
+    { "weight": 10, "sprite": "mon_mi_go_standing_001" },
+    { "weight": 10, "sprite": "mon_mi_go_standing_002" },
+    { "weight": 10, "sprite": "mon_mi_go_standing_003" },
+    { "weight": 10, "sprite": "mon_mi_go_standing_004" },
+    { "weight": 10, "sprite": "mon_mi_go_standing_005" }
+  ],
+  "rotates": false,
+  "bg": []
+}

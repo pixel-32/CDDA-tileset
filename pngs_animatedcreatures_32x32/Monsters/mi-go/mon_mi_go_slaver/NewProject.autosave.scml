@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="mon_mi_go_slaver.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="mon_mi_go_guard_Head.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="mon_mi_go_guard_Seg0.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="mon_mi_go_guard_Seg2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="mon_mi_go_guard_Seg3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="mon_mi_go_guard_Seg1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="mon_mi_go_slaver_gun.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100" l="0" t="-2" r="31" b="29">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="0" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="201">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mon_mi_go_guard_Head">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-6.991261" y="8.052434"/>
+                </key>
+                <key id="1" time="201" spin="0">
+                    <object folder="0" file="1" x="-4.991261" y="8.052434"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="mon_mi_go_guard_Seg0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-7.990012" y="2.746567"/>
+                </key>
+                <key id="1" time="201" spin="0">
+                    <object folder="0" file="2" x="-6.990012" y="2.746567"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="mon_mi_go_guard_Seg2">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="2.931548" y="1.188302"/>
+                </key>
+                <key id="1" time="201" spin="0">
+                    <object folder="0" file="3" x="2.931548" y="2.188302"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="mon_mi_go_guard_Seg3">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="9.944469" y="-3.054473"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="4" x="8.944469" y="-3.054473"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="mon_mi_go_guard_Seg1">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-1.145164" y="-0.019284"/>
+                </key>
+                <key id="1" time="201" spin="0">
+                    <object folder="0" file="5" x="-1.145164" y="-0.019284"/>
+                </key>
+                <key id="2" time="400" spin="0">
+                    <object folder="0" file="5" x="-1.145164" y="0.980716"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mon_mi_go_slaver_gun">
+                <key id="0" spin="-1">
+                    <object folder="0" file="6" x="-3.001464" y="-4.465593"/>
+                </key>
+                <key id="1" time="201">
+                    <object folder="0" file="6" x="-1.814755" y="-2.962428" angle="354.917021" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

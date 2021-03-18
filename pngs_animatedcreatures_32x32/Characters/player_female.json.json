@@ -1,0 +1,14 @@
+{
+  "id": "player_female",
+  "animated": true,
+  "fg": [
+    { "weight": 10, "sprite": "female_standing_000" },
+    { "weight": 10, "sprite": "female_standing_001" },
+    { "weight": 10, "sprite": "female_standing_002" },
+    { "weight": 10, "sprite": "female_standing_003" },
+    { "weight": 10, "sprite": "female_standing_004" },
+    { "weight": 10, "sprite": "female_standing_005" }
+  ],
+  "rotates": false,
+  "bg": []
+}

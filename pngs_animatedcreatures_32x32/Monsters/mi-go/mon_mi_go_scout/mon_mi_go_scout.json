@@ -1,0 +1,13 @@
+{
+  "id": "mon_mi_go_scout",
+  "fg": [
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_000" },
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_001" },
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_002" },
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_003" },
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_004" },
+    { "weight": 10, "sprite": "mon_mi_go_scout_standing_005" }
+  ],
+  "rotates": false,
+  "bg": []
+}

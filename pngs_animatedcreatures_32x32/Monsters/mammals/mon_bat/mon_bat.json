@@ -1,0 +1,12 @@
+{
+  "id": "mon_bat",
+  "fg": [
+    { "weight": 10, "sprite": "mon_bat_flying_000" },
+    { "weight": 10, "sprite": "mon_bat_flying_001" },
+    { "weight": 10, "sprite": "mon_bat_flying_002" },
+    { "weight": 10, "sprite": "mon_bat_flying_003" },
+    { "weight": 10, "sprite": "mon_bat_flying_004" },
+    { "weight": 10, "sprite": "mon_bat_flying_005" }
+  ],
+  "rotates": false,
+  "bg": []
