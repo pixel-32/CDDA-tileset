@@ -6,4 +6,3 @@ __pycache__
 tile_config.json
 
 # built sprite sheets
-*.png

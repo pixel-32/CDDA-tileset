@@ -1,0 +1,8 @@
+{
+    "id": "mon_pidgeon",
+    "fg": [
+        { "weight": 19, "sprite": "mon_pidgeon"}, 
+        { "weight": 1, "sprite": "tiddy"}
+    ],
+        "bg": []
+  }

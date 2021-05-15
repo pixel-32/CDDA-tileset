@@ -1,0 +1,12 @@
+[
+    {
+      "id": "t_fern",
+      "fg": [ "t_fern" ],
+      "bg": [ "t_tall_grass_bg" ]
+    },
+    {
+        "id": "t_fern_harvested",
+        "fg": [ "t_fern_harvested" ],
+        "bg": [ "t_tall_grass_bg" ]
+      }
+  ]

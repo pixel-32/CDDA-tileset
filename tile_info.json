@@ -14,6 +14,9 @@
     "tallbackdrop.png": { "sprite_width": 32, "sprite_height": 64, "sprite_offset_y": -32 }
   },
   {
+    "backdropoffset.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -8 }
+  },
+  {
     "hugebackdrop.png": { "sprite_width": 96, "sprite_height": 96, "sprite_offset_x": -32, "sprite_offset_y": -64 }
   },
   {
@@ -23,13 +26,16 @@
     "items.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -8 }
   },
   {
+    "fields.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -8 }
+  },
+  {
     "fillerItems.png": { "sprite_width": 20, "sprite_height": 20, "sprite_offset_y": -5 }
   },
   {
     "fillerVehicles.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -5 }
   },
   {
-    "creatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": -8 }
+    "creatures.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": -12 }
   },
   {
     "expandedcreatures.png": { "sprite_width": 48, "sprite_height": 48, "sprite_offset_x": -8, "sprite_offset_y": -16 }
