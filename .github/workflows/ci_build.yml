@@ -29,26 +29,24 @@ jobs:
       - name: Build
         id: build
         run: |
-          mkdir build && cd build
-          wget -q https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py \
+          mkdir build
+          wget -q -P build https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/tools/gfx_tools/compose.py \
           || echo "Error: Failed to get compose.py"
-
-          cd ..
 
           python3 build/compose.py --use-all . build
 
-          artifact_name=Cuteclysm-$(echo $GITHUB_SHA | cut -c -8)
+          artifact_name=Cuteclysm-${GITHUB_SHA::7}
           tileset_dir=build
 
-          mkdir $artifact_name
-          mv $tileset_dir/*.png            $artifact_name
-          mv $tileset_dir/tile_config.json $artifact_name
-          mv ./tileset.txt                 $artifact_name
+          mkdir "$artifact_name"
+          mv $tileset_dir/*.png            "$artifact_name"
+          mv $tileset_dir/tile_config.json "$artifact_name"
+          mv ./tileset.txt                 "$artifact_name"
 
-          echo ::set-output name=artifact_name::$artifact_name
+          echo ::set-output name=artifact_name::"$artifact_name"
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: ${{ steps.build.outputs.artifact_name }}
           path: ${{ steps.build.outputs.artifact_name }}
