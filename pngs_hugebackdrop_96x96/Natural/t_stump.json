@@ -1,7 +1,7 @@
 [
   {
     "id": "t_stump",
-    "fg": [ "t_stump" ],
+    "fg": [ { "weight": 1, "sprite": "t_stump" }, { "weight": 1, "sprite": "t_stump2" }, { "weight": 1, "sprite": "t_stump3" } ],
     "bg": [ "t_tree_bg" ]
   }
 ]
