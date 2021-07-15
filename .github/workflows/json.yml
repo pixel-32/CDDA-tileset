@@ -1,0 +1,23 @@
+name: JSON Validation
+
+on:
+  pull_request:
+    paths:
+    - '**.json'
+
+jobs:
+  style-json:
+    name: JSON style check
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: JSON style check
+      run: |
+        find . -name "*.json" -print0 | xargs -0 L 1 tools/json_formatter.cgi
+    - name: Display Corrections
+      if: failure()
+      run: git diff
