@@ -1,0 +1,11 @@
+[
+  {
+    "id": "f_grave_stone_old",
+    "fg": [
+      { "weight": 1, "sprite": "f_grave_stone_old" },
+      { "weight": 1, "sprite": "f_grave_stone_old2" },
+      { "weight": 1, "sprite": "f_grave_stone_old3" }
+    ],
+    "bg": [  ]
+  }
+]
