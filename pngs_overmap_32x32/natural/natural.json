@@ -1,0 +1,32 @@
+[
+  {
+    "id": [ "unknown_terrain" ],
+    "fg": "t_rock_floor",
+    "bg": [  ]
+  },
+  {
+    "id": [ "forest_water" ],
+    "fg": "swamp",
+    "bg": ["t_water_sh_unconnected"]
+  },
+  {
+    "id": [ "pond_field" ],
+    "fg": "t_water_sh_unconnected",
+    "bg": []
+  },
+  {
+    "id": [ "forest" ],
+    "fg": "forest",
+    "bg": [ "t_grass" ]
+  },
+  {
+    "id": [ "forest_thick" ],
+    "fg": "forest_thick",
+    "bg": [ "t_grass" ]
+  },
+  {
+    "id": [ "field" ],
+    "fg": "t_grass",
+    "bg": [ "t_dirt_center" ]
+  }
+]
