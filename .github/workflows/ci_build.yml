@@ -42,6 +42,7 @@ jobs:
           mv $tileset_dir/*.png            "$artifact_name"
           mv $tileset_dir/tile_config.json "$artifact_name"
           mv ./tileset.txt                 "$artifact_name"
+          mv ./fallback.png                "$artifact_name"
 
           echo ::set-output name=artifact_name::"$artifact_name"
 
