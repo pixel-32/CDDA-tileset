@@ -5,4 +5,9 @@ __pycache__
 # generated on build
 tile_config.json
 
+# Backup files
+*.png-autosave.kra
+*.kra
+*.png~
+
 # built sprite sheets
