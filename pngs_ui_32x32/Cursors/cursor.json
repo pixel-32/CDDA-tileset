@@ -28,5 +28,10 @@
     "id": "animation_line",
     "fg": [ "animation_line" ],
     "bg": [ ]
+  },
+  {
+    "id": "zombie_revival_indicator",
+    "fg": [ "zombie_revival_indicator" ],
+    "bg": [ ]
   }
 ]
