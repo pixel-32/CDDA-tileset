@@ -1,0 +1,19 @@
+[
+    {"id": "river_north", "fg": "t_water_sh_t_connection_n"},
+    {"id": "river_south", "fg": "t_water_sh_t_connection_s"},
+    {"id": "river_east", "fg":  "t_water_sh_t_connection_e"},
+    {"id": "river_west", "fg":  "t_water_sh_t_connection_w"},
+
+    {"id": "river_nw", "fg": "t_water_sh_corner_nw"},
+    {"id": "river_sw", "fg": "t_water_sh_corner_sw"},
+    {"id": "river_se", "fg": "t_water_sh_corner_se"},
+    {"id": "river_ne", "fg": "t_water_sh_corner_ne"},
+
+    {"id": "river_c_not_nw", "fg": "t_water_sh_center"},
+    {"id": "river_c_not_sw", "fg": "t_water_sh_center"},
+    {"id": "river_c_not_se", "fg": "t_water_sh_center"},
+    {"id": "river_c_not_ne", "fg": "t_water_sh_center"},
+
+    {"id": "river_center", "fg": "t_water_sh_center"},
+    {"id": "river", "fg": "t_water_sh_center"}
+]
