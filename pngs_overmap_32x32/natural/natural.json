@@ -16,12 +16,20 @@
   },
   {
     "id": [ "forest" ],
-    "fg": "forest",
+    "fg": [
+      { "weight": 1, "sprite": "forest" },
+      { "weight": 1, "sprite": "forest_1" },
+      { "weight": 1, "sprite": "forest_2" }
+    ],
     "bg": [ "t_grass" ]
   },
   {
     "id": [ "forest_thick" ],
-    "fg": "forest_thick",
+    "fg": [
+      { "weight": 1, "sprite": "forest_thick" },
+      { "weight": 1, "sprite": "forest_thick_1" },
+      { "weight": 1, "sprite": "forest_thick_2" }
+    ],
     "bg": [ "t_grass" ]
   },
   {
