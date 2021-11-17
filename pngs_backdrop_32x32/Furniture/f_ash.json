@@ -1,0 +1,10 @@
+{
+  "id": "f_ash",
+  "fg": [
+    { "weight": 1, "sprite": "f_ash" },
+    { "weight": 1, "sprite": "f_ash_1" }
+  ],
+  "bg": [
+    
+  ]
+}

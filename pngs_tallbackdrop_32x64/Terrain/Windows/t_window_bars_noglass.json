@@ -1,0 +1,9 @@
+{
+  "id": "t_window_bars_noglass",
+  "fg": [
+    "t_window_bars"
+  ],
+  "bg": [
+    "t_window_bg"
+  ]
+}
