@@ -1,0 +1,10 @@
+[
+  {
+    "id": "rock_flaking",
+    "fg": [
+      { "weight": 1, "sprite": "rock_flaking_1" },
+      { "weight": 1, "sprite": "rock_flaking_2" }
+    ],
+    "bg": ""
+  }
+]
