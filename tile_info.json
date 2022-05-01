@@ -11,6 +11,9 @@
     "ui.png": {  }
   },
   {
+    "overlayoffset.png": { "sprite_width": 32, "sprite_height": 32, "sprite_offset_y": -12 }
+  },
+  {
     "tallbackdrop.png": { "sprite_width": 32, "sprite_height": 64, "sprite_offset_y": -32 }
   },
   {
