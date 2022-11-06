@@ -1,0 +1,5 @@
+{
+  "id": "t_bars",
+  "fg": ["t_window_bars"],
+  "bg": ["t_window_bg"]
+}

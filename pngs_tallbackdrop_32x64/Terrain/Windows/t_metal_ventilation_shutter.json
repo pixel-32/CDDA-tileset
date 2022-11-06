@@ -1,0 +1,5 @@
+{
+  "id": "t_metal_ventilation_shutter",
+  "fg": ["t_metal_ventilation_shutter"],
+  "bg": ["t_window_bg"]
+}
