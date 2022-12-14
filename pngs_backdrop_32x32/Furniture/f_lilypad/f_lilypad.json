@@ -1,0 +1,11 @@
+{
+  "id": "f_lilypad",
+  "fg": [
+    { "weight": 1, "sprite": "f_lilypad" },
+    { "weight": 1, "sprite": "f_lilypad_2" },
+    { "weight": 1, "sprite": "f_lilypad_3" }
+  ],
+  "bg": [
+    
+  ]
+}
