@@ -23,7 +23,7 @@
     {
       "id": "end_piece",
       "bg": [  ],
-      "fg": [ "f_bed_end_piece_s", "f_bed_end_piece_w", "f_bed_end_piece_n", "f_bed_end_piece_e" ]
+      "fg": [ "f_bed_end_piece_n", "f_bed_end_piece_e", "f_bed_end_piece_s", "f_bed_end_piece_w" ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "f_bed_unconnected" ] }
   ]

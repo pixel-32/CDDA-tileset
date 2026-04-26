@@ -29,10 +29,10 @@
       "id": "end_piece",
       "bg": [  ],
       "fg": [
-        "t_grass_long_t_end_piece_s",
-        "t_grass_long_t_end_piece_w",
         "t_grass_long_t_end_piece_n",
-        "t_grass_long_t_end_piece_e"
+        "t_grass_long_t_end_piece_e",
+        "t_grass_long_t_end_piece_s",
+        "t_grass_long_t_end_piece_w"
       ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "t_grass_long_unconnected" ] }

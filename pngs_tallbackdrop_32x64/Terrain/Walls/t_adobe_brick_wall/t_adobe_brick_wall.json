@@ -34,10 +34,10 @@
       "id": "end_piece",
       "bg": [  ],
       "fg": [
-        "t_adobe_brick_wall_end_piece_s",
-        "t_adobe_brick_wall_end_piece_w",
         "t_adobe_brick_wall_end_piece_n",
-        "t_adobe_brick_wall_end_piece_e"
+        "t_adobe_brick_wall_end_piece_e",
+        "t_adobe_brick_wall_end_piece_s",
+        "t_adobe_brick_wall_end_piece_w"
       ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "t_adobe_brick_wall_unconnected" ] }

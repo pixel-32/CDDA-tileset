@@ -28,7 +28,7 @@
     {
       "id": "end_piece",
       "bg": [  ],
-      "fg": [ "t_carpet_red_end_piece_s", "t_carpet_red_end_piece_w", "t_carpet_red_end_piece_n", "t_carpet_red_end_piece_e" ]
+      "fg": [ "t_carpet_red_end_piece_n", "t_carpet_red_end_piece_e", "t_carpet_red_end_piece_s", "t_carpet_red_end_piece_w" ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "t_carpet_red_unconnected" ] }
   ]

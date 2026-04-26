@@ -13,7 +13,7 @@
       { "id": "edge", "fg": [ "t_dirt_edge_ns", "t_dirt_edge_ew" ] },
       {
         "id": "end_piece",
-        "fg": [ "t_dirt_end_piece_n", "t_dirt_end_piece_e", "t_dirt_end_piece_s", "t_dirt_end_piece_w" ]
+        "fg": [ "t_dirt_end_piece_s", "t_dirt_end_piece_w", "t_dirt_end_piece_n", "t_dirt_end_piece_e" ]
       },
       { "id": "unconnected", "fg": [ "t_dirt_unconnected", "t_dirt_unconnected" ] }
     ]

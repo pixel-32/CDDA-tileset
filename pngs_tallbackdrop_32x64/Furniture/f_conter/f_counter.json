@@ -23,7 +23,7 @@
     {
       "id": "end_piece",
       "bg": [  ],
-      "fg": [ "f_counter_end_piece_s", "f_counter_end_piece_w", "f_counter_end_piece_n", "f_counter_end_piece_e" ]
+      "fg": [ "f_counter_end_piece_n", "f_counter_end_piece_e", "f_counter_end_piece_s", "f_counter_end_piece_w" ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "f_counter_unconnected" ] }
   ]

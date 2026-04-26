@@ -23,7 +23,7 @@
     { "id": "edge", "fg": [ "forest_trail_edge_ns", "forest_trail_edge_ew" ], "bg": "t_grass" },
     {
       "id": "end_piece",
-      "fg": [ "forest_trail_end_piece_s", "forest_trail_end_piece_w", "forest_trail_end_piece_n", "forest_trail_end_piece_e" ],
+      "fg": [ "forest_trail_end_piece_n", "forest_trail_end_piece_e", "forest_trail_end_piece_s", "forest_trail_end_piece_w" ],
       "bg": "t_grass"
     },
     { "id": "unconnected", "fg": [ "forest_trail_unconnected", "forest_trail_unconnected" ], "bg": "t_grass" }

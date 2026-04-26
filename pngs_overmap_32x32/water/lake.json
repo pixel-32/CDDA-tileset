@@ -25,7 +25,7 @@
       {
         "id": "end_piece",
         "bg": [  ],
-        "fg": [ "t_water_sh_end_piece_s", "t_water_sh_end_piece_w", "t_water_sh_end_piece_n", "t_water_sh_end_piece_e" ]
+        "fg": [ "t_water_sh_end_piece_n", "t_water_sh_end_piece_e", "t_water_sh_end_piece_s", "t_water_sh_end_piece_w" ]
       },
       { "bg": [  ], "id": "unconnected", "fg": [ "t_water_sh_unconnected" ] }
     ]

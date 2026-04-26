@@ -23,7 +23,7 @@
     {
       "id": "end_piece",
       "bg": [  ],
-      "fg": [ "f_cupboard_end_piece_s", "f_cupboard_end_piece_w", "f_cupboard_end_piece_n", "f_cupboard_end_piece_e" ]
+      "fg": [ "f_cupboard_end_piece_n", "f_cupboard_end_piece_e", "f_cupboard_end_piece_s", "f_cupboard_end_piece_w" ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "f_cupboard_unconnected" ] }
   ]

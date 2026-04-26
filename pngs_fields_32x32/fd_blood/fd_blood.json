@@ -23,7 +23,7 @@
     {
       "id": "end_piece",
       "bg": [  ],
-      "fg": [ "fd_blood_end_piece_s", "fd_blood_end_piece_w", "fd_blood_end_piece_n", "fd_blood_end_piece_e" ]
+      "fg": [ "fd_blood_end_piece_n", "fd_blood_end_piece_e", "fd_blood_end_piece_s", "fd_blood_end_piece_w" ]
     },
     { "bg": [  ], "id": "unconnected", "fg": [ "fd_blood_unconnected" ] }
   ]

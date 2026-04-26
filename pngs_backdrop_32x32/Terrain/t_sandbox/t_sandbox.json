@@ -15,7 +15,7 @@
     { "id": "edge", "fg": [ "t_sandbox_edge_ns", "t_sandbox_edge_ew" ] },
     {
       "id": "end_piece",
-      "fg": [ "t_sandbox_end_piece_s", "t_sandbox_end_piece_w", "t_sandbox_end_piece_n", "t_sandbox_end_piece_e" ]
+      "fg": [ "t_sandbox_end_piece_n", "t_sandbox_end_piece_e", "t_sandbox_end_piece_s", "t_sandbox_end_piece_w" ]
     },
     { "id": "unconnected", "fg": [ "t_sandbox_unconnected", "t_sandbox_unconnected" ] }
   ]
